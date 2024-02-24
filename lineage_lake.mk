@@ -25,9 +25,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Device
 $(call inherit-product, device/motorola/lake/device.mk)
 
-# Recovery
-TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
-
 # Device identifiers
 PRODUCT_DEVICE := lake
 PRODUCT_NAME := lineage_lake
