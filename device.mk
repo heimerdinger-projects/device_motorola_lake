@@ -18,7 +18,7 @@
 $(call inherit-product-if-exists, vendor/motorola/lake/lake-vendor.mk)
 
 # Properties
--include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/properties.mk
 
 PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := false
